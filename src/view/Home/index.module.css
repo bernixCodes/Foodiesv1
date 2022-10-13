@@ -1,0 +1,106 @@
+.home__container {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  margin-top: 2rem;
+}
+.home__left {
+  width: 85%;
+}
+.home__header {
+  font-size: 4rem;
+  font-weight: 900;
+  line-height: 5rem;
+  margin-top: 5rem;
+}
+.home__subtitle {
+  margin-top: -2rem;
+  width: 70%;
+  word-spacing: 0.3rem;
+  font-weight: 600;
+  line-height: 2rem;
+  color: #bfbfc5;
+}
+
+.home__btns {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 1rem;
+}
+.home__getStarted {
+  background: #101010;
+  color: white;
+  font-size: 1rem;
+  padding: 1rem 2.5rem;
+  border-radius: 99px;
+  cursor: pointer;
+}
+
+.home__play {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.home__playIcon {
+  font-size: 2rem;
+}
+
+.home__reviews {
+  display: flex;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+.home__imgdiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.home__img {
+  object-fit: contain;
+  height: 50px;
+}
+
+@media screen and (max-width: 768px) {
+  .home__container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+  }
+  .home__left {
+    width: 100%;
+  }
+  .home__header {
+    font-size: 1.8rem;
+    font-weight: 900;
+    line-height: 2.5rem;
+    margin-top: 1rem;
+    text-align: center;
+  }
+  .home__subtitle {
+    margin-top: 2rem;
+    width: 100%;
+    word-spacing: 0.1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    text-align: center;
+    color: #bfbfc5;
+  }
+  .home__btns {
+    gap: 1rem;
+    margin-top: 2rem;
+    justify-content: center;
+  }
+  .home__heroImg {
+    width: 100%;
+    overflow: hidden;
+  }
+  .home__imgdiv {
+    justify-content: center;
+    text-align: center;
+  }
+}

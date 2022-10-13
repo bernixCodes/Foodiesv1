@@ -1,0 +1,11 @@
+body {
+  font-family: "Mulish", sans-serif;
+  padding: 0 10rem;
+  scroll-behavior: smooth;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    padding: 0 1rem;
+  }
+}

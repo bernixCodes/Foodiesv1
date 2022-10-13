@@ -1,0 +1,113 @@
+.nav__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo__section {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.nav__items {
+  display: flex;
+  gap: 5rem;
+  cursor: pointer;
+  padding: 0 1rem;
+}
+.nav__items > li {
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.nav__actions {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.nav__toolbox {
+  position: relative;
+}
+
+.dot {
+  position: absolute;
+  color: red;
+  font-size: 2rem;
+  left: 0;
+}
+
+.nav__btn {
+  width: 100px;
+  height: 40px;
+  border-radius: 99px;
+  border: none;
+  background: #111111;
+  color: #b3b3b3;
+  font-weight: 600;
+}
+
+.nav__services {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.nav__arr {
+  font-size: 0.7rem;
+  margin-top: 5px;
+}
+
+.services__sub {
+  display: none;
+}
+
+.pos {
+  position: relative;
+}
+.services__subShow,
+.menu__subShow {
+  display: block;
+  list-style-type: none;
+  position: absolute;
+  top: 1rem;
+  right: -1rem;
+  text-align: center;
+}
+.services__subShow > li,
+.menu__subShow > li {
+  background: #ffe7e7;
+  color: #564f61;
+  padding: 0.5rem 1rem;
+  margin-bottom: 0.15rem;
+  text-decoration: none;
+}
+
+.services__subShow > li a,
+.menu__subShow > li a {
+  text-decoration: none;
+}
+
+.menu__sub {
+  display: none;
+}
+.icon {
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .nav__items,
+  .nav__toolbox,
+  .nav__search {
+    display: none;
+  }
+
+  .nav__btn {
+    width: 80px;
+    height: 30px;
+    font-weight: 500;
+  }
+}
