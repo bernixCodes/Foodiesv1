@@ -8,6 +8,7 @@ import res from "../../images/res.jpg";
 import style from "./index.module.css";
 import Layout from "../_layout";
 import Service from "./../Service/Index";
+import MenuOptions from "./../../components/MenuOptions/index";
 function Home() {
   return (
     <Layout>
@@ -53,6 +54,8 @@ function Home() {
       </div>
       {/* Services */}
       <Service />
+      {/* Menu */}
+      {/* <MenuOptions /> */}
     </Layout>
   );
 }

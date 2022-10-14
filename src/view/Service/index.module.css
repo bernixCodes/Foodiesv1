@@ -1,0 +1,30 @@
+.service__main {
+  margin-top: 2rem;
+}
+.service__headerDiv {
+  width: 100%;
+  text-align: center;
+}
+
+.service__header {
+  font-size: 3rem;
+  font-weight: 900;
+}
+.service__p {
+  line-height: 2rem;
+}
+@media screen and (max-width: 1200px) {
+  .service__header {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .service__header {
+    font-size: 1.5rem;
+    font-weight: 900;
+  }
+  .service__p {
+    line-height: 2rem;
+    width: 100%;
+  }
+}

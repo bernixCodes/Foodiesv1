@@ -1,4 +1,5 @@
 .home__container {
+  width: 100%;
   display: grid;
   grid-template-columns: 60% 40%;
   margin-top: 2rem;
@@ -50,6 +51,7 @@
 
 .home__reviews {
   display: flex;
+  align-items: center;
   gap: 2rem;
   margin-top: 3rem;
 }
@@ -65,10 +67,41 @@
   height: 50px;
 }
 
+@media screen and (max-width: 1200px) {
+  .home__container {
+    grid-template-columns: 55% 40%;
+    overflow: hidden;
+  }
+
+  .home__header {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 3rem;
+    margin-top: 5rem;
+  }
+  .home__subtitle {
+    margin-top: 1rem;
+    width: 90%;
+    word-spacing: 0.3rem;
+    font-weight: 600;
+    line-height: 2rem;
+    color: #bfbfc5;
+  }
+  .home__heroImg {
+    overflow: hidden;
+  }
+  .home__btns {
+    gap: 1.3rem;
+    margin-top: 1.5rem;
+  }
+  .home__getStarted {
+    font-size: 0.8rem;
+    padding: 1rem 3rem;
+  }
+}
 @media screen and (max-width: 768px) {
   .home__container {
-    display: flex;
-    flex-direction: column;
+    grid-template-columns: 1fr;
     margin-top: 2rem;
   }
   .home__left {

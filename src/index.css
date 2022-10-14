@@ -3,7 +3,11 @@ body {
   padding: 0 10rem;
   scroll-behavior: smooth;
 }
-
+@media screen and (max-width: 1200px) {
+  body {
+    padding: 0 2rem;
+  }
+}
 @media screen and (max-width: 768px) {
   body {
     padding: 0 1rem;

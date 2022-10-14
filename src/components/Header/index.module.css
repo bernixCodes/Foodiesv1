@@ -89,6 +89,7 @@
 .services__subShow > li a,
 .menu__subShow > li a {
   text-decoration: none;
+  color: #111111;
 }
 
 .menu__sub {
@@ -98,10 +99,24 @@
   font-size: 1.5rem;
 }
 
-@media screen and (max-width: 768px) {
-  .nav__items,
+@media screen and (max-width: 1200px) {
   .nav__toolbox,
   .nav__search {
+    display: none;
+  }
+  .nav__items {
+    gap: 3rem;
+  }
+  .logo__section {
+    gap: 0.2rem;
+  }
+  .logo__section > h3 {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav__items {
     display: none;
   }
 
@@ -109,5 +124,8 @@
     width: 80px;
     height: 30px;
     font-weight: 500;
+  }
+  .logo__section > h3 {
+    font-size: 1.5rem;
   }
 }
