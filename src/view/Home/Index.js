@@ -55,7 +55,7 @@ function Home() {
       {/* Services */}
       <Service />
       {/* Menu */}
-      {/* <MenuOptions /> */}
+      <MenuOptions />
     </Layout>
   );
 }

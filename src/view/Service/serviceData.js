@@ -1,9 +1,11 @@
+import riderImg from "../../images/rider.png";
+
 export const serviceData = [
   {
     id: 1,
     title: "Deliver your food",
     message: "Deliver your best order to your destination",
-    // imageSrc: "../../images/rider.png",
+    // imageSrc: riderImg,
     imageSrc:
       "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd-i2tVGu-g7_wIWtOXiis00hfqW5XyC9uQg&usqp=CAU",
   },
