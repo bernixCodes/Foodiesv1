@@ -27,13 +27,14 @@
   padding: 0.5rem 1rem;
   border-radius: 99px;
 }
-
+.menu__main_div {
+  background: linear-gradient(#f6f1f2, #faeaed);
+}
 .menu {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background: #f6f1f2;
-  padding: 0 2rem;
+  padding: 2rem;
 }
 .menu_header {
   padding: 0 10px;
@@ -113,6 +114,7 @@
   padding: 0.7rem 1.7rem;
   color: white;
   border-radius: 99px;
+  cursor: pointer;
 }
 
 .menu__btndiv {
@@ -120,7 +122,11 @@
   align-items: center;
   justify-content: center;
 }
-
+@media screen and (max-width: 1200px) {
+  .menu__list_container {
+    justify-content: space-around;
+  }
+}
 @media screen and (max-width: 768px) {
   .menu__list_container {
     justify-content: center;

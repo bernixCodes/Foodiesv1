@@ -3,6 +3,7 @@
   display: grid;
   grid-template-columns: 60% 40%;
   margin-top: 2rem;
+  background: linear-gradient(#f6f1f2, #f6f1f2, #fff, #f6f1f2);
 }
 .home__left {
   width: 85%;

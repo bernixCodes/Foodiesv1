@@ -1,5 +1,7 @@
 .service__main {
   margin-top: 2rem;
+  background: linear-gradient(#f6f1f2, #fff, #f6f1f2);
+  padding: 0 0 1rem 0;
 }
 .service__headerDiv {
   width: 100%;

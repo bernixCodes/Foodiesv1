@@ -9,6 +9,7 @@ import style from "./index.module.css";
 import Layout from "../_layout";
 import Service from "./../Service/Index";
 import MenuOptions from "./../../components/MenuOptions/index";
+import MenuDetail from "../../components/MenuOptions/MenuDetail";
 function Home() {
   return (
     <Layout>
@@ -56,6 +57,8 @@ function Home() {
       <Service />
       {/* Menu */}
       <MenuOptions />
+      {/* Menu Details */}
+      <MenuDetail />
     </Layout>
   );
 }

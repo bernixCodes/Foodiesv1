@@ -2,7 +2,7 @@ body {
   font-family: "Mulish", sans-serif;
   padding: 0 10rem;
   scroll-behavior: smooth;
-  /* background: #f5ebed; */
+  background: #f6f1f2;
 }
 @media screen and (max-width: 1200px) {
   body {

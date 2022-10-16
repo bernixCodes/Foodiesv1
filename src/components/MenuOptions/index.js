@@ -333,7 +333,7 @@ function MenuOptions() {
     setMenuList(currentMenu.data);
   }, [activeFilter]);
   return (
-    <div>
+    <div className={style.menu__main_div}>
       <div className={style.menu}>
         <div className={style.menu_header}>
           <h3>Our best menu</h3>
