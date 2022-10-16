@@ -10,6 +10,7 @@ import Layout from "../_layout";
 import Service from "./../Service/Index";
 import MenuOptions from "./../../components/MenuOptions/index";
 import MenuDetail from "../../components/MenuOptions/MenuDetail";
+import Contact from "./../../components/Contact/index";
 function Home() {
   return (
     <Layout>
@@ -59,6 +60,8 @@ function Home() {
       <MenuOptions />
       {/* Menu Details */}
       <MenuDetail />
+      {/* Contact */}
+      <Contact />
     </Layout>
   );
 }

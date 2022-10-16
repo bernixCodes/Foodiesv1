@@ -28,7 +28,7 @@
   border-radius: 99px;
 }
 .menu__main_div {
-  background: linear-gradient(#f6f1f2, #faeaed);
+  background: linear-gradient(rgb(247, 230, 230), #f6f1f2, #faeaed);
 }
 .menu {
   display: flex;
