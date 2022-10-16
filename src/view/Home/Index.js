@@ -11,6 +11,7 @@ import Service from "./../Service/Index";
 import MenuOptions from "./../../components/MenuOptions/index";
 import MenuDetail from "../../components/MenuOptions/MenuDetail";
 import Contact from "./../../components/Contact/index";
+import Footer from "../../components/Footer";
 function Home() {
   return (
     <Layout>
@@ -62,6 +63,8 @@ function Home() {
       <MenuDetail />
       {/* Contact */}
       <Contact />
+      {/* Footer */}
+      <Footer />
     </Layout>
   );
 }
